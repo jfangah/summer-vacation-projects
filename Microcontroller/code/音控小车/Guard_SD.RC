@@ -1,0 +1,151 @@
+# Begin Project
+# Begin SubItem "Guard_SD  Resources"
+# Begin Source File
+SOURCE=voice\dcqzy.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_DCQZY_48K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\fbf.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_FBF_48K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\gjg.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_GJG_48K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\j15yq.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_J15YQ_48K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\jwwyq.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_JWWYQ_48K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\nqw5y.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_NQW5Y_48K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\nqw15y.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_NQW15Y_48K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\nqwwwyq.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_NQWWWYQ_48K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\nzwgsm.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_NZWGSM_48K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\nzylhql.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_NZYLHQL_48K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\qj.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_QJ_48K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\S12.24K
+USEPARAM=FALSE
+PARAM=
+ID=RES_S12_24K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\sb.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_SB_48K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\ssmay.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_SSMAY_48K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\wlhq.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_WLHQ_48K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\xl.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_XL_48K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\yeah.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_YEAH_48K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\yrzm.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_YRZM_48K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\zsyb.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_ZSYB_48K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\nqw10yq.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_NQW10YQ_48K
+EXPORT=3
+# End Source File
+# Begin Source File
+SOURCE=voice\j10yq.48k
+USEPARAM=FALSE
+PARAM=
+ID=RES_J10YQ_48K
+EXPORT=3
+# End Source File
+# End SubItem
+# End Project

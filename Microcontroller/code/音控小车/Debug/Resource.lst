@@ -1,0 +1,220 @@
+Generalplus u'nSP Assembler - Ver. 1.14.13.0
+              Listing File Has Been Relocated
+                            	
+                            	// Resource Table
+                            	// Created by IDE, Do not modify this table
+                            	
+00008091                    	.TEXT
+                            	.public _RES_Table;
+                            	.external __RES_DCQZY_48K_sa
+                            	.public _RES_DCQZY_48K_SA;
+                            	.external __RES_DCQZY_48K_ea;
+                            	.public _RES_DCQZY_48K_EA;
+                            	.external __RES_FBF_48K_sa
+                            	.public _RES_FBF_48K_SA;
+                            	.external __RES_FBF_48K_ea;
+                            	.public _RES_FBF_48K_EA;
+                            	.external __RES_GJG_48K_sa
+                            	.public _RES_GJG_48K_SA;
+                            	.external __RES_GJG_48K_ea;
+                            	.public _RES_GJG_48K_EA;
+                            	.external __RES_J15YQ_48K_sa
+                            	.public _RES_J15YQ_48K_SA;
+                            	.external __RES_J15YQ_48K_ea;
+                            	.public _RES_J15YQ_48K_EA;
+                            	.external __RES_JWWYQ_48K_sa
+                            	.public _RES_JWWYQ_48K_SA;
+                            	.external __RES_JWWYQ_48K_ea;
+                            	.public _RES_JWWYQ_48K_EA;
+                            	.external __RES_NQW5Y_48K_sa
+                            	.public _RES_NQW5Y_48K_SA;
+                            	.external __RES_NQW5Y_48K_ea;
+                            	.public _RES_NQW5Y_48K_EA;
+                            	.external __RES_NQW15Y_48K_sa
+                            	.public _RES_NQW15Y_48K_SA;
+                            	.external __RES_NQW15Y_48K_ea;
+                            	.public _RES_NQW15Y_48K_EA;
+                            	.external __RES_NQWWWYQ_48K_sa
+                            	.public _RES_NQWWWYQ_48K_SA;
+                            	.external __RES_NQWWWYQ_48K_ea;
+                            	.public _RES_NQWWWYQ_48K_EA;
+                            	.external __RES_NZWGSM_48K_sa
+                            	.public _RES_NZWGSM_48K_SA;
+                            	.external __RES_NZWGSM_48K_ea;
+                            	.public _RES_NZWGSM_48K_EA;
+                            	.external __RES_NZYLHQL_48K_sa
+                            	.public _RES_NZYLHQL_48K_SA;
+                            	.external __RES_NZYLHQL_48K_ea;
+                            	.public _RES_NZYLHQL_48K_EA;
+                            	.external __RES_QJ_48K_sa
+                            	.public _RES_QJ_48K_SA;
+                            	.external __RES_QJ_48K_ea;
+                            	.public _RES_QJ_48K_EA;
+                            	.external __RES_S12_24K_sa
+                            	.public _RES_S12_24K_SA;
+                            	.external __RES_S12_24K_ea;
+                            	.public _RES_S12_24K_EA;
+                            	.external __RES_SB_48K_sa
+                            	.public _RES_SB_48K_SA;
+                            	.external __RES_SB_48K_ea;
+                            	.public _RES_SB_48K_EA;
+                            	.external __RES_SSMAY_48K_sa
+                            	.public _RES_SSMAY_48K_SA;
+                            	.external __RES_SSMAY_48K_ea;
+                            	.public _RES_SSMAY_48K_EA;
+                            	.external __RES_WLHQ_48K_sa
+                            	.public _RES_WLHQ_48K_SA;
+                            	.external __RES_WLHQ_48K_ea;
+                            	.public _RES_WLHQ_48K_EA;
+                            	.external __RES_XL_48K_sa
+                            	.public _RES_XL_48K_SA;
+                            	.external __RES_XL_48K_ea;
+                            	.public _RES_XL_48K_EA;
+                            	.external __RES_YEAH_48K_sa
+                            	.public _RES_YEAH_48K_SA;
+                            	.external __RES_YEAH_48K_ea;
+                            	.public _RES_YEAH_48K_EA;
+                            	.external __RES_YRZM_48K_sa
+                            	.public _RES_YRZM_48K_SA;
+                            	.external __RES_YRZM_48K_ea;
+                            	.public _RES_YRZM_48K_EA;
+                            	.external __RES_ZSYB_48K_sa
+                            	.public _RES_ZSYB_48K_SA;
+                            	.external __RES_ZSYB_48K_ea;
+                            	.public _RES_ZSYB_48K_EA;
+                            	.external __RES_NQW10YQ_48K_sa
+                            	.public _RES_NQW10YQ_48K_SA;
+                            	.external __RES_NQW10YQ_48K_ea;
+                            	.public _RES_NQW10YQ_48K_EA;
+                            	.external __RES_J10YQ_48K_sa
+                            	.public _RES_J10YQ_48K_SA;
+                            	.external __RES_J10YQ_48K_ea;
+                            	.public _RES_J10YQ_48K_EA;
+                            	
+                            	
+                            	_RES_Table:
+                            	
+                            	_RES_DCQZY_48K_SA:
+00008091 38 DC 00 00        		.DW offset __RES_DCQZY_48K_sa,seg __RES_DCQZY_48K_sa;
+                            	_RES_DCQZY_48K_EA:
+00008093 18 DE 00 00        		.DW offset __RES_DCQZY_48K_ea,seg __RES_DCQZY_48K_ea;
+                            	
+                            	_RES_FBF_48K_SA:
+00008095 03 ED 00 00        		.DW offset __RES_FBF_48K_sa,seg __RES_FBF_48K_sa;
+                            	_RES_FBF_48K_EA:
+00008097 F0 ED 00 00        		.DW offset __RES_FBF_48K_ea,seg __RES_FBF_48K_ea;
+                            	
+                            	_RES_GJG_48K_SA:
+00008099 04 EC 00 00        		.DW offset __RES_GJG_48K_sa,seg __RES_GJG_48K_sa;
+                            	_RES_GJG_48K_EA:
+0000809B 03 ED 00 00        		.DW offset __RES_GJG_48K_ea,seg __RES_GJG_48K_ea;
+                            	
+                            	_RES_J15YQ_48K_SA:
+0000809D E6 DF 00 00        		.DW offset __RES_J15YQ_48K_sa,seg __RES_J15YQ_48K_sa;
+                            	_RES_J15YQ_48K_EA:
+0000809F AB E1 00 00        		.DW offset __RES_J15YQ_48K_ea,seg __RES_J15YQ_48K_ea;
+                            	
+                            	_RES_JWWYQ_48K_SA:
+000080A1 F0 E7 00 00        		.DW offset __RES_JWWYQ_48K_sa,seg __RES_JWWYQ_48K_sa;
+                            	_RES_JWWYQ_48K_EA:
+000080A3 6D E9 00 00        		.DW offset __RES_JWWYQ_48K_ea,seg __RES_JWWYQ_48K_ea;
+                            	
+                            	_RES_NQW5Y_48K_SA:
+000080A5 E4 E4 00 00        		.DW offset __RES_NQW5Y_48K_sa,seg __RES_NQW5Y_48K_sa;
+                            	_RES_NQW5Y_48K_EA:
+000080A7 6A E6 00 00        		.DW offset __RES_NQW5Y_48K_ea,seg __RES_NQW5Y_48K_ea;
+                            	
+                            	_RES_NQW15Y_48K_SA:
+000080A9 4F DA 00 00        		.DW offset __RES_NQW15Y_48K_sa,seg __RES_NQW15Y_48K_sa;
+                            	_RES_NQW15Y_48K_EA:
+000080AB 38 DC 00 00        		.DW offset __RES_NQW15Y_48K_ea,seg __RES_NQW15Y_48K_ea;
+                            	
+                            	_RES_NQWWWYQ_48K_SA:
+000080AD 4B D8 00 00        		.DW offset __RES_NQWWWYQ_48K_sa,seg __RES_NQWWWYQ_48K_sa;
+                            	_RES_NQWWWYQ_48K_EA:
+000080AF 4F DA 00 00        		.DW offset __RES_NQWWWYQ_48K_ea,seg __RES_NQWWWYQ_48K_ea;
+                            	
+                            	_RES_NZWGSM_48K_SA:
+000080B1 18 DE 00 00        		.DW offset __RES_NZWGSM_48K_sa,seg __RES_NZWGSM_48K_sa;
+                            	_RES_NZWGSM_48K_EA:
+000080B3 E6 DF 00 00        		.DW offset __RES_NZWGSM_48K_ea,seg __RES_NZWGSM_48K_ea;
+                            	
+                            	_RES_NZYLHQL_48K_SA:
+000080B5 16 D4 00 00        		.DW offset __RES_NZYLHQL_48K_sa,seg __RES_NZYLHQL_48K_sa;
+                            	_RES_NZYLHQL_48K_EA:
+000080B7 3E D6 00 00        		.DW offset __RES_NZYLHQL_48K_ea,seg __RES_NZYLHQL_48K_ea;
+                            	
+                            	_RES_QJ_48K_SA:
+000080B9 B8 EF 00 00        		.DW offset __RES_QJ_48K_sa,seg __RES_QJ_48K_sa;
+                            	_RES_QJ_48K_EA:
+000080BB 8A F0 00 00        		.DW offset __RES_QJ_48K_ea,seg __RES_QJ_48K_ea;
+                            	
+                            	_RES_S12_24K_SA:
+000080BD 9B CD 00 00        		.DW offset __RES_S12_24K_sa,seg __RES_S12_24K_sa;
+                            	_RES_S12_24K_EA:
+000080BF 16 D4 00 00        		.DW offset __RES_S12_24K_ea,seg __RES_S12_24K_ea;
+                            	
+                            	_RES_SB_48K_SA:
+000080C1 F0 ED 00 00        		.DW offset __RES_SB_48K_sa,seg __RES_SB_48K_sa;
+                            	_RES_SB_48K_EA:
+000080C3 D4 EE 00 00        		.DW offset __RES_SB_48K_ea,seg __RES_SB_48K_ea;
+                            	
+                            	_RES_SSMAY_48K_SA:
+000080C5 55 E3 00 00        		.DW offset __RES_SSMAY_48K_sa,seg __RES_SSMAY_48K_sa;
+                            	_RES_SSMAY_48K_EA:
+000080C7 E4 E4 00 00        		.DW offset __RES_SSMAY_48K_ea,seg __RES_SSMAY_48K_ea;
+                            	
+                            	_RES_WLHQ_48K_SA:
+000080C9 6D E9 00 00        		.DW offset __RES_WLHQ_48K_sa,seg __RES_WLHQ_48K_sa;
+                            	_RES_WLHQ_48K_EA:
+000080CB C6 EA 00 00        		.DW offset __RES_WLHQ_48K_ea,seg __RES_WLHQ_48K_ea;
+                            	
+                            	_RES_XL_48K_SA:
+000080CD D4 EE 00 00        		.DW offset __RES_XL_48K_sa,seg __RES_XL_48K_sa;
+                            	_RES_XL_48K_EA:
+000080CF B8 EF 00 00        		.DW offset __RES_XL_48K_ea,seg __RES_XL_48K_ea;
+                            	
+                            	_RES_YEAH_48K_SA:
+000080D1 8A F0 00 00        		.DW offset __RES_YEAH_48K_sa,seg __RES_YEAH_48K_sa;
+                            	_RES_YEAH_48K_EA:
+000080D3 26 F1 00 00        		.DW offset __RES_YEAH_48K_ea,seg __RES_YEAH_48K_ea;
+                            	
+                            	_RES_YRZM_48K_SA:
+000080D5 AB E1 00 00        		.DW offset __RES_YRZM_48K_sa,seg __RES_YRZM_48K_sa;
+                            	_RES_YRZM_48K_EA:
+000080D7 55 E3 00 00        		.DW offset __RES_YRZM_48K_ea,seg __RES_YRZM_48K_ea;
+                            	
+                            	_RES_ZSYB_48K_SA:
+000080D9 C6 EA 00 00        		.DW offset __RES_ZSYB_48K_sa,seg __RES_ZSYB_48K_sa;
+                            	_RES_ZSYB_48K_EA:
+000080DB 04 EC 00 00        		.DW offset __RES_ZSYB_48K_ea,seg __RES_ZSYB_48K_ea;
+                            	
+                            	_RES_NQW10YQ_48K_SA:
+000080DD 3E D6 00 00        		.DW offset __RES_NQW10YQ_48K_sa,seg __RES_NQW10YQ_48K_sa;
+                            	_RES_NQW10YQ_48K_EA:
+000080DF 4B D8 00 00        		.DW offset __RES_NQW10YQ_48K_ea,seg __RES_NQW10YQ_48K_ea;
+                            	
+                            	_RES_J10YQ_48K_SA:
+000080E1 6A E6 00 00        		.DW offset __RES_J10YQ_48K_sa,seg __RES_J10YQ_48K_sa;
+                            	_RES_J10YQ_48K_EA:
+000080E3 F0 E7 00 00        		.DW offset __RES_J10YQ_48K_ea,seg __RES_J10YQ_48K_ea;
+                            	
+                            	
+                            	// End Table
+                            	.public T_SACM_S480_SpeechTable
+                            	  T_SACM_S480_SpeechTable:
+000080E5 D5 80              	     .dw  _RES_YRZM_48K_SA    //0  有人在吗
+000080E6 A1 80              	     .dw  _RES_JWWYQ_48K_SA    //1	借五元钱
+000080E7 E1 80              	     .dw  _RES_J10YQ_48K_SA    //2	借10元钱	
+000080E8 9D 80              	     .dw  _RES_J15YQ_48K_SA    //3	借15元钱
+000080E9 C9 80              	     .dw  _RES_WLHQ_48K_SA    //4	我来还钱 
+000080EA B1 80              	     .dw  _RES_NZWGSM_48K_SA    //5  你找我干什么
+000080EB AD 80              	     .dw  _RES_NQWWWYQ_48K_SA    //6	你向我借了3元钱
+000080EC DD 80              		 .dw  _RES_NQW10YQ_48K_SA    //7	你向我借了10元钱
+000080ED A9 80              	     .dw  _RES_NQW15Y_48K_SA    //8	你向我借了15元钱
+000080EE B5 80              	     .dw  _RES_NZYLHQL_48K_SA    //9	你终于来还钱了
+000080EF D9 80              	     .dw  _RES_ZSYB_48K_SA    //10	再说一遍
+000080F0 CD 80              	     .dw  _RES_XL_48K_SA    //11	训练
+000080F1 C1 80              	     .dw  _RES_SB_48K_SA    //12	识别
+0 error(s), 0 warning(s).
+

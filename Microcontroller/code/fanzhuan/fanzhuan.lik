@@ -1,0 +1,26 @@
+Version: 3.0
+Options: m37
+Obj: "C:\Program Files\Generalplus\unSPIDE 3.0.4\startupcode\startupD.obj"
+Obj: "D:\3140102328\ÐÞ¸Ä\fanzhuan\Debug\main.obj"
+Obj: "D:\3140102328\ÐÞ¸Ä\fanzhuan\Debug\Resource.obj"
+Lib: "C:\Program Files\Generalplus\unSPIDE 3.0.4\library\CMacro\CMacro1016.lib"
+Output: "D:\3140102328\ÐÞ¸Ä\fanzhuan\Debug\fanzhuan.S37"
+;Locate: unSP_StartUp in "startupD.obj" at 8009 
+;Align: unSP_StartUp in "startupD.obj" with 0 
+;Locate: IRAM in "main.obj" at 84FF  linkat 1 
+;Align: IRAM in "main.obj" with 0 
+;Locate: CODE in "main.obj" at 8030 
+;Align: CODE in "main.obj" with 0 
+;Locate: CODE in "./modu1" of "CMacro1016.lib"  at 83B8 
+;Align: CODE in "./modu1" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./divu1" of "CMacro1016.lib"  at 8415 
+;Align: CODE in "./divu1" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./lshiu1" of "CMacro1016.lib"  at 84B1 
+;Align: CODE in "./lshiu1" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./clz" of "CMacro1016.lib"  at 8468 
+;Align: CODE in "./clz" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./__divi16_n" of "CMacro1016.lib"  at 84F5 
+;Align: CODE in "./__divi16_n" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./rshu1" of "CMacro1016.lib"  at 84D3 
+;Align: CODE in "./rshu1" of "CMacro1016.lib"  with 0 
+;Locate: __sn_init_table at 8000 

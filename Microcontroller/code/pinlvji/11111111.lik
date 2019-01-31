@@ -1,0 +1,41 @@
+Version: 3.0
+Options: m37
+Obj: "C:\Program Files\Generalplus\unSPIDE 3.0.4\startupcode\startupD.obj"
+Obj: "D:\新建文件夹\11111111\Debug\Resource.obj"
+Obj: "D:\新建文件夹\11111111\Debug\libgloss.obj"
+Obj: "D:\新建文件夹\11111111\Debug\main.obj"
+Lib: "C:\Program Files\Generalplus\unSPIDE 3.0.4\library\CMacro\CMacro1016.lib"
+Output: "D:\新建文件夹\11111111\Debug\11111111.S37"
+;Locate: unSP_StartUp in "startupD.obj" at 8009 
+;Align: unSP_StartUp in "startupD.obj" with 0 
+;Locate: IRAM in "main.obj" at 84D1  linkat 1 
+;Align: IRAM in "main.obj" with 0 
+;Locate: CODE in "libgloss.obj" at 83FE 
+;Align: CODE in "libgloss.obj" with 0 
+;Locate: CODE in "main.obj" at 8214 
+;Align: CODE in "main.obj" with 0 
+;Locate: CODE in "./lshiu1" of "CMacro1016.lib"  at 84A5 
+;Align: CODE in "./lshiu1" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./modi2" of "CMacro1016.lib"  at 8177 
+;Align: CODE in "./modi2" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./divi2" of "CMacro1016.lib"  at 80D8 
+;Align: CODE in "./divi2" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./modu1" of "CMacro1016.lib"  at 8298 
+;Align: CODE in "./modu1" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./divu1" of "CMacro1016.lib"  at 82F5 
+;Align: CODE in "./divu1" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./clz" of "CMacro1016.lib"  at 8348 
+;Align: CODE in "./clz" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./__modi32_n" of "CMacro1016.lib"  at 842F 
+;Align: CODE in "./__modi32_n" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./lshiu2" of "CMacro1016.lib"  at 8391 
+;Align: CODE in "./lshiu2" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./__divi32_n" of "CMacro1016.lib"  at 845B 
+;Align: CODE in "./__divi32_n" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./__divi16_n" of "CMacro1016.lib"  at 84C7 
+;Align: CODE in "./__divi16_n" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./rshu1" of "CMacro1016.lib"  at 8483 
+;Align: CODE in "./rshu1" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./rshu2" of "CMacro1016.lib"  at 83CB 
+;Align: CODE in "./rshu2" of "CMacro1016.lib"  with 0 
+;Locate: __sn_init_table at 8000 

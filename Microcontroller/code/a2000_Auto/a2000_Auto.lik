@@ -1,0 +1,45 @@
+Version: 3.0
+Options: m37
+Obj: "C:\Program Files\Generalplus\unSPIDE 3.0.4\startupcode\startupD.obj"
+Obj: "D:\3140102328\修改\a2000_Auto\Debug\Resource.obj"
+Obj: "D:\3140102328\修改\a2000_Auto\Debug\main.obj"
+Obj: "D:\3140102328\修改\a2000_Auto\Debug\isr.obj"
+Obj: "D:\3140102328\修改\a2000_Auto\Debug\hardware.obj"
+Obj: "D:\3140102328\修改\a2000_Auto\Debug\d1_24K.res"
+Obj: "D:\3140102328\修改\a2000_Auto\Debug\ww_24k.res"
+Lib: "D:\3140102328\修改\a2000_Auto\.\sacmv25.lib"
+Lib: "C:\Program Files\Generalplus\unSPIDE 3.0.4\library\CMacro\CMacro1016.lib"
+Output: "D:\3140102328\修改\a2000_Auto\Debug\a2000_Auto.S37"
+;Locate: unSP_StartUp in "startupD.obj" at 8009 
+;Align: unSP_StartUp in "startupD.obj" with 0 
+;Locate: IRAM in "main.obj" at 93A5  linkat 2F9 
+;Align: IRAM in "main.obj" with 0 
+;Locate: IRAM in "hardware.obj" at 93AB  linkat 2FF 
+;Align: IRAM in "hardware.obj" with 0 
+;Locate: RAM in "a2000" of "sacmv25.lib"  at 2F8 
+;Align: RAM in "a2000" of "sacmv25.lib"  with 0 
+;Locate: A2000_Section in "a2000" of "sacmv25.lib"  at 1 
+;Align: A2000_Section in "a2000" of "sacmv25.lib"  with 0 
+;Locate: CODE in "main.obj" at 8CCE 
+;Align: CODE in "main.obj" with 0 
+;Locate: CODE in "hardware.obj" at 90FD 
+;Align: CODE in "hardware.obj" with 0 
+;Locate: __sn_section_RES_D1_24K in "d1_24K.res" at BEA4 
+;Align: __sn_section_RES_D1_24K in "d1_24K.res" with 0 
+;Locate: __sn_section_RES_WW_24K in "ww_24k.res" at 93E1 
+;Align: __sn_section_RES_WW_24K in "ww_24k.res" with 0 
+;Locate: CODE in "a2000" of "sacmv25.lib"  at 805A 
+;Align: CODE in "a2000" of "sacmv25.lib"  with 0 
+;Locate: CODE in "./divi1" of "CMacro1016.lib"  at 929F 
+;Align: CODE in "./divi1" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./modi1" of "CMacro1016.lib"  at 922A 
+;Align: CODE in "./modi1" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./lshiu1" of "CMacro1016.lib"  at 9357 
+;Align: CODE in "./lshiu1" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./clz" of "CMacro1016.lib"  at 930E 
+;Align: CODE in "./clz" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./__divi16_n" of "CMacro1016.lib"  at 939B 
+;Align: CODE in "./__divi16_n" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./rshu1" of "CMacro1016.lib"  at 9379 
+;Align: CODE in "./rshu1" of "CMacro1016.lib"  with 0 
+;Locate: __sn_init_table at 8000 

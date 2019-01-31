@@ -1,0 +1,137 @@
+Version: 3.0
+Options: m37
+Obj: "C:\Program Files\Generalplus\unSPIDE 3.0.4\startupcode\startupD.obj"
+Obj: "D:\3140102328\修改\音控小车\Debug\InitIO.obj"
+Obj: "D:\3140102328\修改\音控小车\Debug\hardware.obj"
+Obj: "D:\3140102328\修改\音控小车\Debug\FIQ.obj"
+Obj: "D:\3140102328\修改\音控小车\Debug\Resource.obj"
+Obj: "D:\3140102328\修改\音控小车\Debug\main.obj"
+Obj: "D:\3140102328\修改\音控小车\Debug\Flash.obj"
+Obj: "D:\3140102328\修改\音控小车\Debug\Bpwm.obj"
+Obj: "D:\3140102328\修改\音控小车\Debug\SetIOBit.obj"
+Obj: "D:\3140102328\修改\音控小车\Debug\dcqzy_48k.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\fbf_48k.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\gjg_48k.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\j15yq_48k.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\jwwyq_48k.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\nqw5y_48k.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\nqw15y_48k.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\nqwwwyq_48k.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\nzwgsm_48k.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\nzylhql_48k.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\qj_48k.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\S12_24K.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\sb_48k.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\ssmay_48k.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\wlhq_48k.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\xl_48k.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\yeah_48k.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\yrzm_48k.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\zsyb_48k.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\nqw10yq_48k.res"
+Obj: "D:\3140102328\修改\音控小车\Debug\j10yq_48k.res"
+Lib: "D:\3140102328\修改\音控小车\.\bsrv222SDL.lib"
+Lib: "D:\3140102328\修改\音控小车\sacmv26e.lib"
+Lib: "C:\Program Files\Generalplus\unSPIDE 3.0.4\library\CMacro\CMacro1016.lib"
+Output: "D:\3140102328\修改\音控小车\Debug\Guard_SD.S37"
+;Locate: unSP_StartUp in "startupD.obj" at 8009 
+;Align: unSP_StartUp in "startupD.obj" with 0 
+;Locate: IRAM in "hardware.obj" at CD11  linkat 47E 
+;Align: IRAM in "hardware.obj" with 0 
+;Locate: IRAM in "main.obj" at CD78  linkat 4E5 
+;Align: IRAM in "main.obj" with 0 
+;Locate: BSR_IRAM_EXCLUSIVE in "BSRSDCON" of "bsrv222SDL.lib"  at CD8A  linkat 4F7 
+;Align: BSR_IRAM_EXCLUSIVE in "BSRSDCON" of "bsrv222SDL.lib"  with 0 
+;Locate: IRAM in "S480" of "sacmv26e.lib"  at CD96  linkat 503 
+;Align: IRAM in "S480" of "sacmv26e.lib"  with 0 
+;Locate: IRAM in "A2000" of "sacmv26e.lib"  at CD98  linkat 505 
+;Align: IRAM in "A2000" of "sacmv26e.lib"  with 0 
+;Locate: RAM in "FIQ.obj" at 39D 
+;Align: RAM in "FIQ.obj" with 0 
+;Locate: BSR_RAM_EXCLUSIVE in "BSRSDCON" of "bsrv222SDL.lib"  at 39E 
+;Align: BSR_RAM_EXCLUSIVE in "BSRSDCON" of "bsrv222SDL.lib"  with 0 
+;Locate: BSR_RAM_BLOCK in "BSRSDCON" of "bsrv222SDL.lib"  at 3B4 
+;Align: BSR_RAM_BLOCK in "BSRSDCON" of "bsrv222SDL.lib"  with 0 
+;Locate: OVERLAP_RAM_BLOCK in "BSRSDCON" of "bsrv222SDL.lib"  at 1 
+;Align: OVERLAP_RAM_BLOCK in "BSRSDCON" of "bsrv222SDL.lib"  with 0 
+;Locate: OVERLAP_RAM_BLOCK in "S480" of "sacmv26e.lib"  at 1 
+;Align: OVERLAP_RAM_BLOCK in "S480" of "sacmv26e.lib"  with 0 
+;Locate: OVERLAP_SRAM_BLOCK in "A2000" of "sacmv26e.lib"  at 362 
+;Align: OVERLAP_SRAM_BLOCK in "A2000" of "sacmv26e.lib"  with 0 
+;Locate: OVERLAP_RAM_BLOCK in "A2000" of "sacmv26e.lib"  at 1 
+;Align: OVERLAP_RAM_BLOCK in "A2000" of "sacmv26e.lib"  with 0 
+;Locate: CODE in "InitIO.obj" at CC79 
+;Align: CODE in "InitIO.obj" with 0 
+;Locate: CODE in "hardware.obj" at C938 
+;Align: CODE in "hardware.obj" with 0 
+;Locate: CODE in "FIQ.obj" at CCFC 
+;Align: CODE in "FIQ.obj" with 0 
+;Locate: CODE in "main.obj" at C42F 
+;Align: CODE in "main.obj" with 0 
+;Locate: CODE in "Flash.obj" at CC44 
+;Align: CODE in "Flash.obj" with 0 
+;Locate: CODE in "Bpwm.obj" at CCEE 
+;Align: CODE in "Bpwm.obj" with 0 
+;Locate: CODE in "SetIOBit.obj" at A705 
+;Align: CODE in "SetIOBit.obj" with 0 
+;Locate: DATA in "SetIOBit.obj" at F126 
+;Align: DATA in "SetIOBit.obj" with 0 
+;Locate: __sn_section_RES_DCQZY_48K in "dcqzy_48k.res" at DC38 
+;Align: __sn_section_RES_DCQZY_48K in "dcqzy_48k.res" with 0 
+;Locate: __sn_section_RES_FBF_48K in "fbf_48k.res" at ED03 
+;Align: __sn_section_RES_FBF_48K in "fbf_48k.res" with 0 
+;Locate: __sn_section_RES_GJG_48K in "gjg_48k.res" at EC04 
+;Align: __sn_section_RES_GJG_48K in "gjg_48k.res" with 0 
+;Locate: __sn_section_RES_J15YQ_48K in "j15yq_48k.res" at DFE6 
+;Align: __sn_section_RES_J15YQ_48K in "j15yq_48k.res" with 0 
+;Locate: __sn_section_RES_JWWYQ_48K in "jwwyq_48k.res" at E7F0 
+;Align: __sn_section_RES_JWWYQ_48K in "jwwyq_48k.res" with 0 
+;Locate: __sn_section_RES_NQW5Y_48K in "nqw5y_48k.res" at E4E4 
+;Align: __sn_section_RES_NQW5Y_48K in "nqw5y_48k.res" with 0 
+;Locate: __sn_section_RES_NQW15Y_48K in "nqw15y_48k.res" at DA4F 
+;Align: __sn_section_RES_NQW15Y_48K in "nqw15y_48k.res" with 0 
+;Locate: __sn_section_RES_NQWWWYQ_48K in "nqwwwyq_48k.res" at D84B 
+;Align: __sn_section_RES_NQWWWYQ_48K in "nqwwwyq_48k.res" with 0 
+;Locate: __sn_section_RES_NZWGSM_48K in "nzwgsm_48k.res" at DE18 
+;Align: __sn_section_RES_NZWGSM_48K in "nzwgsm_48k.res" with 0 
+;Locate: __sn_section_RES_NZYLHQL_48K in "nzylhql_48k.res" at D416 
+;Align: __sn_section_RES_NZYLHQL_48K in "nzylhql_48k.res" with 0 
+;Locate: __sn_section_RES_QJ_48K in "qj_48k.res" at EFB8 
+;Align: __sn_section_RES_QJ_48K in "qj_48k.res" with 0 
+;Locate: __sn_section_RES_S12_24K in "S12_24K.res" at CD9B 
+;Align: __sn_section_RES_S12_24K in "S12_24K.res" with 0 
+;Locate: __sn_section_RES_SB_48K in "sb_48k.res" at EDF0 
+;Align: __sn_section_RES_SB_48K in "sb_48k.res" with 0 
+;Locate: __sn_section_RES_SSMAY_48K in "ssmay_48k.res" at E355 
+;Align: __sn_section_RES_SSMAY_48K in "ssmay_48k.res" with 0 
+;Locate: __sn_section_RES_WLHQ_48K in "wlhq_48k.res" at E96D 
+;Align: __sn_section_RES_WLHQ_48K in "wlhq_48k.res" with 0 
+;Locate: __sn_section_RES_XL_48K in "xl_48k.res" at EED4 
+;Align: __sn_section_RES_XL_48K in "xl_48k.res" with 0 
+;Locate: __sn_section_RES_YEAH_48K in "yeah_48k.res" at F08A 
+;Align: __sn_section_RES_YEAH_48K in "yeah_48k.res" with 0 
+;Locate: __sn_section_RES_YRZM_48K in "yrzm_48k.res" at E1AB 
+;Align: __sn_section_RES_YRZM_48K in "yrzm_48k.res" with 0 
+;Locate: __sn_section_RES_ZSYB_48K in "zsyb_48k.res" at EAC6 
+;Align: __sn_section_RES_ZSYB_48K in "zsyb_48k.res" with 0 
+;Locate: __sn_section_RES_NQW10YQ_48K in "nqw10yq_48k.res" at D63E 
+;Align: __sn_section_RES_NQW10YQ_48K in "nqw10yq_48k.res" with 0 
+;Locate: __sn_section_RES_J10YQ_48K in "j10yq_48k.res" at E66A 
+;Align: __sn_section_RES_J10YQ_48K in "j10yq_48k.res" with 0 
+;Locate: CODE in "S480" of "sacmv26e.lib"  at B731 
+;Align: CODE in "S480" of "sacmv26e.lib"  with 0 
+;Locate: CODE in "A2000" of "sacmv26e.lib"  at BE3A 
+;Align: CODE in "A2000" of "sacmv26e.lib"  with 0 
+;Locate: CODE in "./modi1" of "CMacro1016.lib"  at CB17 
+;Align: CODE in "./modi1" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./divi1" of "CMacro1016.lib"  at CB8C 
+;Align: CODE in "./divi1" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./lshiu1" of "CMacro1016.lib"  at CCAA 
+;Align: CODE in "./lshiu1" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./clz" of "CMacro1016.lib"  at CBFB 
+;Align: CODE in "./clz" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./__divi16_n" of "CMacro1016.lib"  at CD07 
+;Align: CODE in "./__divi16_n" of "CMacro1016.lib"  with 0 
+;Locate: CODE in "./rshu1" of "CMacro1016.lib"  at CCCC 
+;Align: CODE in "./rshu1" of "CMacro1016.lib"  with 0 
+;Locate: __sn_init_table at 8000 
